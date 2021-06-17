@@ -2,7 +2,7 @@
 /**
  * main -Prints string
  * 
- * returns zero
+ * return: 0
  */
 int main(void)
 {
