@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 /*more headers goes there */
 /*beetty style doc for function main goes there*/
 /**
