@@ -1,4 +1,4 @@
-#inclufde <stdio.h>
+#include <stdio.h>
 /*more headers goes there*/
 /*betty style doc for function main goes here*/
 /**
@@ -10,7 +10,7 @@
 int main(void)
 {
   int i = 48, j = 49, y = 50;
-  while (i = 48, j = 49, y = 50;
+  while (i = 48, j = 49, y = 50);
 	 while (i < 58)
 	   {
 	     while (j > 58)
