@@ -15,7 +15,7 @@ __asm__ ("syscall"
 : "=a" (ret)
 : "a" (syscall),
 "D" (fd),
-"S" (s)
+"S" (s),
 "d" (1));
 return (1);
 }
