@@ -15,7 +15,7 @@ while(i < 58)
 while (j < 58)
 {
 while (y < 58)
-{	
+{
 while (z < 58)
 {
 putchar(i);
@@ -44,7 +44,7 @@ i++;
 j = 48;
 y = i;
 z = j + 1;
-}	
+}
 putchar('\n');
 return (0);
 }
