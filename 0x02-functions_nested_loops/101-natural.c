@@ -1,43 +1,44 @@
 #include "holberton.h"
+
 /**
- *powB - raises the number base to power power
- *
- *
- *Return: return the answer
+ * powB - raises the number base to power power
+ * @base : the base
+ * @power : the power
+ * Return: return the answer
  */
 int powB(int base, int power)
 {
-  int i, prod = 1;
+	int i, prod = 1;
 
-  for (i = 0; i < power; i++)
-    {
-      int i, prod = 1;
-      for (i = 0; i < power; i++)
+	for (i = 0; i < power; i++)
 	{
-	  prod = prod * base;
+		prod = prod * base;
 	}
-      return (prod);
-    }
+	return (prod);
+}
 
-  /**
-   *numLength -returs the length of a string
-   *
-   *Return: number of digits
-   */
-  int  numLength(int num)
-  {
-    int length = 0;
+/**
+ * numLength - returns the length of astring
+ * @num : operand number
+ * Return: number of digits
+ */
+int numLength(int num)
+{
+	int length = 0;
 
-    if (!num)
-      {
-	return (1);
-      }
-    while (num)
-      {
-	num = num /10;
-	length += 1;
-      }
-    return
+	if (!num)
+	{
+		return (1);
+	}
+
+	while (num)
+	{
+		num = num / 10;
+		length += 1;
+	}
+
+	return (length);
+}
 
 /**
  * putnchar - print a number of any digit
