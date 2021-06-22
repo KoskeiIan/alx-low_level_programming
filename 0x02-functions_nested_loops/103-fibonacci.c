@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-long int f1 = 1, f2 =2, sum = f2, tmp;
+long int f1 = 1, f2 = 2, sum = f2, tmp;
 while (f2 < 4000000)
 {
 tmp = f1 + f2;
