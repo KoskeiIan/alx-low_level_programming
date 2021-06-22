@@ -11,7 +11,7 @@ void jack_bauer(void)
 int hourDigit = 0;
 int minuteDigit = 0;
 
-for (hourdigit = 0; hourDigit < 24; hourDigit++)
+for (hourDigit = 0; hourDigit < 24; hourDigit++)
 {
 for (minuteDigit = 0; minuteDigit < 60; minuteDigit++)
 {
