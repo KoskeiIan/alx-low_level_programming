@@ -7,7 +7,7 @@
 int main(void)
 {
 char *sh = "Holberton";
- while (*sh)
+while (*sh)
 {
 putchar(*sh);
 sh++;
