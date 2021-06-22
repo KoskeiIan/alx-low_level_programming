@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- *jackbauer - prnts every minute of jack bauer 00:00 to 23:59
+ *jack_bauer - prnts every minute of jack bauer 00:00 to 23:59
  *
  *Return: (void)
  */
