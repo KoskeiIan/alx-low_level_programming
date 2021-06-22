@@ -1,4 +1,4 @@
-#inlcude "holberton.h"
+#include "holberton.h"
 
 /**
  * add - adds two integers and return the results
