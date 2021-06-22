@@ -5,7 +5,7 @@
  *main - prints first 50 numbers of thw efibonacci sequendnce
  *Return: 0
  */
-int main (void)
+int main(void)
 {
 int i, n;
 long f1, f2, next;
@@ -22,7 +22,7 @@ printf("%lu", f1);
 else
 {
 printf("%lu, ", f1);
-next = f1 +f2;
+next = f1 + f2;
 f1 = f2;
 f2 = next;
 }
