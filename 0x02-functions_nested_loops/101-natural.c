@@ -5,7 +5,7 @@
  *
  *Return: return the answer
  */
-inrt powB(int base, int power)
+int powB(int base, int power)
 {
   int i, prod = 1;
 
