@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
-*_isalpha - Return 1 if c is a letter,lowercase or uppercase, 0 otherwise 
+*_isalpha - Return 1 if c is a letter,lowercase or uppercase, 0 otherwise
 *
 *Return: 1 or 0
 */
