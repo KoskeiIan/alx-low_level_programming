@@ -7,7 +7,6 @@
  */
 
 void jack_bauer(void)
-{
 int hourDigit;
 int minuteDigit;
 
