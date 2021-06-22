@@ -1,12 +1,12 @@
 #include "holberton.h"
 
 /**
- *print_alphabet_x10 - Print alphabet
+ *print_alphabet - Print alphabet
  *
  *Return: (void)
  *
  */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
 char c;
 for (c = 'a'; c <= 'z'; c++)
