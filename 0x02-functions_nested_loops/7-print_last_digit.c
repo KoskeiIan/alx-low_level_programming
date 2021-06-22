@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- *print_last_digit - prints the last digit 
+ *print_last_digit - prints the last digit
  *@n: integer to be tested
- *Return: value of the last digit 
+ *Return: value of the last digit
  */
 int print_last_digit(int n)
 {
