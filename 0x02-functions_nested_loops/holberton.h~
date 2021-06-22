@@ -1,0 +1,12 @@
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
+
+int _putchar()
+void print_alphabet(void);
+void print_alphabet(void);
+int _islower(int);
+int _isalpha(int);
+int print_sign(int);
+int _abs(int);
+
+#endif /* HOLBERTON_H */
