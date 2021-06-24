@@ -5,7 +5,7 @@
  *@c:integer to be checked
  *Return: 1 if c is digit,0 otherwise
  */
-int
+int _isdigit(int c)
 {
   if (c >= '0' && c <= '9')
     {
