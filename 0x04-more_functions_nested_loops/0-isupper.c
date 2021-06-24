@@ -1,4 +1,4 @@
-#invlude "holberton.h"
+#include "holberton.h"
 
 /**
  *_isupper - checks if the letter is uppercase
