@@ -9,7 +9,7 @@ void swap_int(int *a, int *b);
 /* length of string */
 int _strlen(char *s);
 /* pritnstring */
-void _puts9char *str);
+void _putschar (*str);
 /* Reverse print string */
 void print_rev(char *s);
 /*reverse string */
@@ -17,11 +17,11 @@ void rev_string(char *s);
 /* prints every chaacter of a string */
 void puts2(char *str);
 /*print half of a stirng */
-voids puts_half(char *str);
+void puts_half(char *str);
 /* prints n elements of an array */
 void print_array(int *a , int n);
 /*copy */
-char *_strcpy(cahr *dest, char *src);
+char *_strcpy(char *dest, char *src);
 
 
 #endif
