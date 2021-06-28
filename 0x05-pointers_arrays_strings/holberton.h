@@ -9,7 +9,7 @@ void swap_int(int *a, int *b);
 /* length of string */
 int _strlen(char *s);
 /* pritnstring */
-void _putschar (*str);
+void _puts(char *str);
 /* Reverse print string */
 void print_rev(char *s);
 /*reverse string */
