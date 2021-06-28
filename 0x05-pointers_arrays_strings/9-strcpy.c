@@ -1,11 +1,11 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- *_strcpy - copy string at the end of another string including \0 
- *@dest: string
- *@src: string
+ * _strcpy - copy string at the end of another string including \0
+ * @dest: pointer to string to be copied to
+ * @src: pointer to string to be copied
  *
- *Return: print dest + src
+ *Return: pointer to dest
  */char *_strcpy(char *dest, char *src)
 {
 int j;
