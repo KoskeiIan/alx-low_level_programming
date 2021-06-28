@@ -14,7 +14,7 @@ for (i = 0; s[i]; i++)
 {
 length++;
 }
-for (i = length - 1; i >= 0; i++)
+for (i = length - 1; i >= 0; i--)
 {
 _putchar(*(s + i));
 }
