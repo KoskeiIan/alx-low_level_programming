@@ -10,23 +10,33 @@
 
 int _atoi(char *s)
 {
-  int j, firstNumber = 1, negatif = 1;
-	unsigned int num = 1;
+	int index, ind2;
+	unsigned int res;
+	int sign = 1;
+	char now;
 
-	j = 0;
-	while (s[j] && firstNumber)
+	index = 0;
+	res = 0;
+	while (*(s + index) != '\0')
 	{
-		if (s[j] == '-' && !num)
-			negatif *= -1;
-		if (s[j] >= '0' && s[j] <= '9' && firstNumber)
+		now = *(s + index);
+		if (now == '-')
 		{
-			num *= 10;
-			num += s[j] - '0';
+			sign *= -1;
 		}
-		else if (num > 0)
-			firstNumber = 0;
-		j++;
-	};
-	num *= negatif;
-	return (num);
+		if (now >= '0' && now <= '9')
+		{
+			ind2 = index;
+			while (*(s + ind2) > 47 && *(s + ind2) < 58)
+			{
+				res = (res * 10) + *(s + ind2) - '0';
+				ind2++;
+			}
+			break;
+		}
+		index++;
+	}
+	if (sign < 0)
+		res *= sign;
+	return (res);
 }
