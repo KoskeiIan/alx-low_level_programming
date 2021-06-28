@@ -10,7 +10,7 @@
  {
    int j;
 
-   fotr (j = 0; src[j]; j++)
+   for (j = 0; src[j]; j++)
      {
        dest[j] = src[j];
      }
