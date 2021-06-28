@@ -12,7 +12,7 @@ char tmp;
 
 for (i = 0; s[i]; i++)
 {
-length++
+length++;
 }
 for (i = 0; i < length / 2; i++)
 {
