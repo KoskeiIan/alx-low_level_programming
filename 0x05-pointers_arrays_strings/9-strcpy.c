@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- *_strcpy - concate 2 strings
+ *_strcpy - copy string at the end of another string including \0 
  *@dest: string
  *@src: string
  *
