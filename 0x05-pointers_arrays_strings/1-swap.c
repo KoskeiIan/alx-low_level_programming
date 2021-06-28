@@ -3,15 +3,16 @@
 
 /**
  *swap_int - swap two integers
- *
- *Return 
+ *@a: integer
+ *@b: integer
+ *Return: vois 
  */
 
 void swap_int(int *a, int *b)
 {
-  int local;
+int local;
 
-  local = *a;
-  *a = *b;
-  *b = local;
+local = *a;
+*a = *b;
+*b = local;
 }
