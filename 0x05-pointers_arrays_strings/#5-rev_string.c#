@@ -20,4 +20,3 @@ tmp = s[length - 1 - i];
 s[length - 1 - i] = s[i];
 s[i] = tmp;
 }
-}
