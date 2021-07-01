@@ -1,0 +1,25 @@
+#include "holberton.h"
+#include <stdio.h>
+
+/**
+ *_strncat - concantenates two strings
+ *@dest: string 1
+ *@src: string 2
+ *@n: integer
+ *Return: pointer to the  resulting string dest
+ */
+int _strlen(char *str)
+{
+  int length = 0;
+
+  while (*str)
+    {
+      str++;
+	length++;
+    }
+  return(length);
+}
+
+/**
+ *_strncat - concatinates two strings
+ *@dwest

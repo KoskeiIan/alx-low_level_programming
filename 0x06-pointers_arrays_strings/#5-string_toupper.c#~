@@ -1,0 +1,10 @@
+#include "holberton.h"
+
+/**
+ *string_toupper(cahr *s)
+{
+cahr *ptr = s;
+
+while (*s)
+{
+if (*s >= 97 && *s <= 122)
