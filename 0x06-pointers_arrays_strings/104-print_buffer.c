@@ -39,13 +39,13 @@ void printHexes(char *b, int start, int end)
  *@start: starting position
  *@end: ending position
  */
-void print printASCII(char *b, int start, int end)
+void printASCII(char *b, int start, int end)
 {
   int ch, i = 0;
 
   while (i < end)
     {
-      ch = *(b + i + star);
+      ch = *(b + i + start);
       if (!isPrintableASCII(ch))
 	ch = 46;
       printf("%c", ch);
@@ -69,7 +69,7 @@ void print_buffer(char *b, int size)
 	  printf("%08x: ", start);
 	  printHexes(b, start, end);
 	  printASCII(b, start, end);
-	  primtf("\n");
+	  printf("\n");
 }
 }
   else
