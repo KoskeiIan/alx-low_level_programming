@@ -11,13 +11,13 @@ char *infinite_add(char *n1, char *n2, char*r, int size_r)
 
 {
   /* local variable declaration */
-  int i = 0, j = 0, k, l = 0, f, d = 0;
+  int i = 0, j = 0, k, l = 0, f, s, d = 0;
 
   while (n1[i] != '\0')
-    i++
+    i++;
       while (n2[i] != '\0')
-      j++
-	if (i > j)
+	j++;
+      if (i > j)
 	l = i;
       else
 	l = j;
@@ -44,8 +44,9 @@ char *infinite_add(char *n1, char *n2, char*r, int size_r)
       r[l + 1] = '\0';
       if (1 + 2 > size_r)
 	return (0);
-      while (l-- + 1} = r[1];
+      while (l-- >= 0)
+	r[1 + 1] = r[1];
       r[0] = d + '0';
     }
-  return (r)
+  return (r);
     }
