@@ -1,4 +1,4 @@
-#inlclude "holberton.h"
+#include "holberton.h"
 
 /**
  *_strcmp - compares two strings

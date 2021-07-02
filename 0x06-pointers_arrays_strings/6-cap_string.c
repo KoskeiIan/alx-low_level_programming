@@ -16,7 +16,7 @@ return (c >= 97 && c <= 122);
 *@c: character
 *Return: 1 if true, 0 if false
 */
-int isDelimiter(cahr c)
+int isDelimiter(char c)
 {
 int i;
 char delimiter[] = " \t\n,.!?\'(){}";
@@ -38,6 +38,6 @@ char *cap_string(char *s)
 char *ptr = s;
 int foundDelimit = 1;
 s++;
-}
+
 return (ptr);
 }

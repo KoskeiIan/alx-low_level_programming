@@ -1,4 +1,4 @@
-#include  <string.>
+#include  <string.h>
 
 /**
  *_strncpy - copies a string
@@ -7,7 +7,7 @@
  *@n: number of bytes
 Return: dest
 */
-cahr *_strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
   int i;
 
