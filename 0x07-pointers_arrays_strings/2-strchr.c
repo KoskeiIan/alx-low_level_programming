@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stddef.h>
+#include <stdio.h>
 /**
  *_strchr - points to the first occurence of a character
  *
