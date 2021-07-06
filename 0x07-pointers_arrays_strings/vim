@@ -1,0 +1,12 @@
+#include "holberton.h"
+#include <stdio.h>
+/**
+*_strchr - points to the first occurence of a character
+*
+*@s: string to check
+*@c: character to point
+*
+*Return: s pointed to c character
+*/
+
+
