@@ -1,4 +1,4 @@
-#include "holberotn.h"
+#include "holberton.h"
 #include <stdio.h>
 /**
  * print_diagsums - prints sum of two diaonals of a square
@@ -9,15 +9,15 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int i, sixe1;
-	unsigned  sumDiag1, sumDiaf2;
+	int i, size1;
+	unsigned  sumDiag1, sumDiag2;
 
 	size1 = 0;
 	sumDiag1 = 0;
-	sumDiag = 0;
+	sumDiag2 = 0;
 
 	size = (size * size) - 1;
-	for (i = 0; i <= size2; i = i +(size - 1))
+	for (i = 0; i <= size1; i = i +(size - 1))
 	{
 		sumDiag1 = sumDiag1 + a[i];
 	}
