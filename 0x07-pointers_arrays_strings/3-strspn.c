@@ -9,8 +9,7 @@
  * segment of s which consist only of bytes from
  * accept
  */
-/ 
-unsignred int _strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int count, count1, match = 0;
 

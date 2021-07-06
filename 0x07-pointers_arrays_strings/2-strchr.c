@@ -1,9 +1,10 @@
 #include "holberton.h"
+#include <stddef.h>
 /**
  *_strchr - points to the first occurence of a character
  *
  *@s; string to check
- *c: character to point
+ *@c: character to point
  *
  *Return: s pointe to c character
  */
@@ -18,7 +19,7 @@ char *_strchr(char *s, char c)
 			return ((s + len));
 		len++;
 	}
-	if (c== '\0'));
+	if (c == '\0');
 	return ((s + len));
 	return (NULL);
 }
