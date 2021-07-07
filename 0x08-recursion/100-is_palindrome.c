@@ -34,7 +34,7 @@ int isPalRec(char str[], int s, int e)
  *@s: input string
  *Return: 1 if true, 0 if false
  */
-is_palindrome(char *s)
+int is_palindrome(char *s)
 {
 	int len = _strlen_recursion(s) - 1;
 	

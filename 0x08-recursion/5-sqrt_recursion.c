@@ -12,12 +12,12 @@ int isSqrt(int n, int i)
 	if (i * i > n)
 		return (-1);
 	if (i * i == n)
-			return (i);
+		return (i);
 	return (isSqrt(n, i + 1));
 }
 
 /**
- * *_oqrt_recursion - returns the naturl square root of a number
+ * _sqrt_recursion - returns the naturl square root of a number
  * @n: input number
  * Return: sqare root of number, -1 if false
  */
