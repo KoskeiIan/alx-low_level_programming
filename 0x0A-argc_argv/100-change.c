@@ -16,10 +16,10 @@ int returnCents(int n)
 	{
 		if (n >= 25)
 			n -= 25;
-		else if (n>= 10)
+		else if (n >= 10)
 			n -= 10;
 		else if (n >= 2)
-			n -+ 2;
+			n -= 2;
 		else if (n >= 2)
 			n -= 2;
 		else if (n >= 1)
@@ -42,8 +42,9 @@ int main(int argc, char **argv)
 	if (argc != 2)
 	{
 		printf("Error\n");
-		return(1);
+		return (1);
 	}
+	number = atoi(argv[1]);
 	if (number < 0)
 	{
 		printf("0\n");
