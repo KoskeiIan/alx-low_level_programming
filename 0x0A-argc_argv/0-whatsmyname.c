@@ -3,8 +3,9 @@
 
 /**
  * main - Entry point of the program
- * argc: arguments in the command line
+ * @argc: arguments in the command line
  * @argv: array of argc
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
