@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include <stdioh>
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -46,7 +46,7 @@ int main(int argc, char **argv)
 	}
 	if (number < 0)
 	{
-		printf("0\n")
+		printf("0\n");
 		return (0);
 	}
 		printf("%i\n", returnCents(number));
