@@ -1,5 +1,5 @@
 #include "holberton.h"
-#inlcude <stdio.h>
+#include <stdio.h>
 
 /**
  * main - Entry point of the program
