@@ -1,4 +1,4 @@
-#inlcude <stdlib.h>
+#include <stdlib.h>
 
 /**
  * _strdup - return pointer to a new string tha t duplicates given string,
