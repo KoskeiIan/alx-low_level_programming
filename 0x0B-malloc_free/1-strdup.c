@@ -5,7 +5,7 @@
  * alocates mem w/ malloc
  * @str: String to duplicate
  *
- * Return: pointer to  new string, NULL if failed to make memory 
+ * Return: pointer to  new string, NULL if failed to make memory
  */
 
 char *_strdup(char *str)
